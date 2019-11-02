@@ -1,0 +1,64 @@
+ [
+    {
+      "index": "1",
+      "class": "el-icon-goods",
+      "name": "商品管理",
+      "userGroup":["0","1","2"],
+      "children": [
+        { "index": "/home/picman", "name": "商品管理" },
+        { "index": "/home/addpic", "name": "添加商品" }
+      ]
+    },
+    {
+      "index": "2",
+      "class": "el-icon-s-order",
+      "name": "进货管理",
+      "userGroup":["0","1","2"],
+      "children": [
+        { "index": "/home/kuchuman", "name": "库存管理" },
+        { "index": "/home/addkuchu", "name": "添加库存" }
+      ]
+    },
+    {
+      "index": "3",
+      "class": "el-icon-sell",
+      "name": "出货管理",
+      "userGroup":["0","1","2"],
+      "children": [
+        { "index": "/home/salelist", "name": "销售列表" },
+        { "index": "/home/shipment", "name": "商品出库" },
+        { "index": "/home/degeneration", "name": "商品退货" }
+      ]
+    },
+    {
+      "index": "4",
+      "class": "el-icon-s-data",
+      "name": "统计管理",
+      "userGroup":["0"],
+      "children": [
+        { "index": "/home/salestatistic", "name": "销售统计" },
+        { "index": "/home/incomingstatustic", "name": "进货统计" }
+      ]
+    },
+    {
+      "index": "5",
+      "class": "el-icon-s-custom",
+      "name": "账号管理",
+      "userGroup":["0"],
+      "children": [
+        { "index": "/home/accountman", "name": "账号管理" },
+        { "index": "/home/addaccount", "name": "添加账号" },
+        { "index": "/home/modifypwd", "name": "修改密码" }
+      ]
+    },
+    {
+      "index": "6",
+      "class": "el-icon-user-solid",
+      "name": "会员管理",
+      "userGroup":["0","1"],
+      "children": [
+        { "index": "/home/memberman", "name": "会员管理" },
+        { "index": "/home/addmember", "name": "添加会员" }
+      ]
+    }
+  ]
