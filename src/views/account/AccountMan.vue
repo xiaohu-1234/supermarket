@@ -1,6 +1,6 @@
 <template>
   <el-container class="main">
-    <el-header class="header" style="height:30px">账号管理 </el-header>
+    <el-header class="header" style="height:30px">账号管理</el-header>
     <el-main>
       <el-table
         :data="tableData"
